@@ -103,12 +103,17 @@ try {
   pP = document.getElementsByClassName("single-price")[0].firstChild.firstChild
     .innerHTML;
   appendNewRow(document.createElement("tr"), "ثمن المنتج", pP, "prixP");
+  try{
   appendNewRow(
     document.createElement("tr"),
     "التوصيل",
     PrixLivraison(text, wordToSearch),
     "prixL"
-  );
+  );}
+  catch(error){
+    document.getElementById("prixL").innerHTML = "لم يتم تحديد ثمن التوصيل";
+    console.log("An error occurred: " + error.message);
+  }
   appendNewRow(
     document.createElement("tr"),
     "المبلغ الجملي",

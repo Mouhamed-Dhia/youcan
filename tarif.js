@@ -76,7 +76,7 @@ try {
     existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
   }
   let product = document.getElementsByClassName("product-details")[0];
-  // create a new li node
+ 
   let divCard = document.createElement("div");
 
   console.log(divCard);
@@ -124,15 +124,7 @@ try {
     }, 2000);
   })();
 } catch (error) {
-  // Code to handle the error
-  try {
-    document.getElementById("prixL").innerHTML = "لم يتم تحديد ثمن التوصيل";
-  } catch (error) {
-    console.log("An error occurred: " + error.message);
-    console.log(
-      "Pour activer Tarif Plugin veuillez ajouter un variant pour la livraison !"
-    );
-  }
+  console.log("Pour activer Tarif Plugin veuillez ajouter un variant pour la livraison !");
 }
 try {
   document.getElementsByClassName("single-order-body")[0].remove();

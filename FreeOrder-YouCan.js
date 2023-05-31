@@ -8,7 +8,7 @@
 function FreeOrder(email){
   const elements = document.querySelectorAll('.contact-form');
   const count = elements.length;
-    if (count=0)
+    if (count==0)
     {
       document.getElementsByName("email")[0].setAttribute("value",email);
       document.getElementsByClassName("form-group")[2].setAttribute("style","display:none");

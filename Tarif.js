@@ -1,14 +1,4 @@
-try {
-  setInterval(function () {
-    document
-      .querySelector(".single-product .single-submit")
-      .classList.toggle("shaked");
-  }, 5000);
-} catch (error) {
-  // Code to handle the error
-  console.log("An error occurred: " + error.message);
-}
-
+// This Code Powred By Mouhamed Dhia Fajria
 try {
   var text = document.getElementsByClassName("single-variant")[0].innerText;
   var wordToSearch = [

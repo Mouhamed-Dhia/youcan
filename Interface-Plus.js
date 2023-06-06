@@ -69,7 +69,6 @@ try {
  
   let divCard = document.createElement("div");
 
-  console.log(divCard);
   divCard.setAttribute("style", "margin-bottom:5%;padding: 2%;background-color: #f0f0f0;border-radius: 15px;");
   let cardHeader = document.createElement("div");
   insertAfter(divCard, document.getElementById("express-checkout-section"));

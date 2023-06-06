@@ -54,7 +54,7 @@
     color: #ffffff!important;
 }
 .tarif-prix{
-  background-color: #313131!important;
+  background-color: #313131;
 }
 .single-description{
   color :#ccc!important;
@@ -88,4 +88,10 @@ body > div:nth-child(2){
 }
 .product-details{
   border-color: #ffffff26!important;
+}
+.side-navigation .navigation-list li a {
+    color:white!important;
+}
+.side-navigation{
+    background-color: #161616!important;
 }

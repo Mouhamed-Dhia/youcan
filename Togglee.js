@@ -3,7 +3,7 @@
     if(Theme == "dark"){
       document.getElementById("toggle").checked='true';
       displayToggel("var(--primary-color)","none","block");
-      addCSSLink("https://raw.githubusercontent.com/Mouhamed-Dhia/youcan/main/Dark-Themee.css");
+      addCSSLink("https://cdn.jsdelivr.net/gh/Mouhamed-Dhia/youcan/Dark-Themee.css");
     }else{
        setCookie("Youcan-Theme", "light", 30);
     }
@@ -86,11 +86,11 @@ var body = document.body;
 checkbox.addEventListener("change", function() {
   if (checkbox.checked) {
     displayToggel("var(--primary-color)","none","block");
-    addCSSLink("https://raw.githubusercontent.com/Mouhamed-Dhia/youcan/main/Dark-Themee.css");
+    addCSSLink("https://cdn.jsdelivr.net/gh/Mouhamed-Dhia/youcan/Dark-Themee.css");
     setCookie("Youcan-Theme", "dark", 30);
   } else {
     displayToggel("grey","block","none");
-   removeCSSLink("https://raw.githubusercontent.com/Mouhamed-Dhia/youcan/main/Dark-Themee.css");
+   removeCSSLink("https://cdn.jsdelivr.net/gh/Mouhamed-Dhia/youcan/Dark-Themee.css");
    setCookie("Youcan-Theme", "light", 30);
   }
 });

@@ -6,7 +6,8 @@
 }
   
   body{
-    background-color: black;
+    background-color: black!important;
+    color:#cfcccc!important;
 }
 .main-bar{
     color: white!important;

@@ -1,3 +1,4 @@
+/**/
 try {
   setInterval(function () {
     document
